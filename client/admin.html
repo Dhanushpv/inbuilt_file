@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./seeuser.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>see users</title>
+
+  </head>
+  <body onload="veiwUsers()">
+       
+<nav class="p-3">
+    <div class="d-flex justify-content-between align-items-center container">
+      <div><img src="https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000" style="width: 70px;height: 70px; z-index: 1;" alt="" ><span class="fs-3 text-center fw-bold  text-white  p-2">UMS</span></div>
+      <div>
+        <span class="px-4"><a class=" text-decoration-none text-white fs-6" href="">Home</a></span>
+        <span class="px-4"><a class=" text-decoration-none text-white fs-6" href="">File</a></span>
+        <span class="px-4"><a class=" text-decoration-none text-white fs-6" href="">About</a></span>
+        <span class="px-4"><a class=" text-decoration-none text-white fs-6" href="">Contact</a></span>
+        <button class="bttn2">SIGIN IN</button>
+        <span class="px-4"><img src="https://img.icons8.com/?size=100&id=STOBCZbtLToI&format=png&color=000000" style="width: 50px; height: 50px;" alt=""></span>
+      </div>
+    </div>
+    
+    </nav>
+
+    <div class="d-flex ">
+        <div class="blanck">
+            <div class=" text-center pt-5"><img src="https://img.icons8.com/?size=100&id=492ILERveW8G&format=png&color=000000" style="width: 60px; height: 60px;" alt=""></div>
+            <div class=" text-center pt-5"><img  onclick="add()" src="https://img.icons8.com/?size=100&id=44535&format=png&color=000000" style="width: 60px; height: 60px;" alt=""><br></div>
+            <div class=" text-center pt-5"><img src="https://img.icons8.com/?size=100&id=21103&format=png&color=000000" style="width: 60px; height: 60px;" alt=""></div>
+            <div class=" text-center pt-5"><img onclick="logout()" src="https://img.icons8.com/?size=100&id=vcvBMGD6n6ZL&format=png&color=FFFFFF" style="width: 60px; height: 60px;" alt=""></div>
+        </div>
+        <div class=" user">
+            <table  class="bg-white">
+                <thead>
+                    <tr class="table-head">
+                        <th>Photos</th>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>phoneno</th>
+                        <th>View</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        
+                    </tr>
+                    <tr>
+                    
+                    </tr>
+                </thead>
+                <tbody id="userTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+  </body>
+
+</html>
