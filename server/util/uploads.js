@@ -84,7 +84,7 @@ exports.getserverData = async function() {
     return new Promise((resolve, reject) => {
         try {
             // Construct the absolute file path using __dirname
-            const file_path = path.join(__dirname, '../uploads/datas', 'datas.json'); 
+            const file_path = path.join(__dirname, '../Datas/datas', 'datas.json'); 
             
             // Check if the file exists
             if (!fs.existsSync(file_path)) {
@@ -125,7 +125,7 @@ exports.dataUpload = async function (file, directory) {
     
 
             // Use __dirname to ensure the correct path is used
-            let upload_path = path.join(__dirname, '../uploads', directory); 
+            let upload_path = path.join(__dirname, '../Datas', directory); 
             console.log('upload_path', upload_path);
 
             fs.mkdir(upload_path, { recursive: true }, (err) => {

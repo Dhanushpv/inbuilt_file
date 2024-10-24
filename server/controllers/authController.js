@@ -101,7 +101,7 @@ const path = require('path');
 // Function to read JSON data from file
 function getDataFromJson() {
     // Adjust the path if your datas.json file is located in a different folder
-    const filePath = path.join(__dirname, '../uploads/datas','datas.json');  // Assuming the file is in the /uploads/datas folder
+    const filePath = path.join(__dirname, '../Datas/datas','datas.json');  // Assuming the file is in the /uploads/datas folder
     try {
         const jsonData = fs.readFileSync(filePath, 'utf-8');
         return JSON.parse(jsonData);

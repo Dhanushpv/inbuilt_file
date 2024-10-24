@@ -1,0 +1,20 @@
+[
+  {
+    "id": "b0598e17-6f06-4a9d-b239-dabc127b58d7",
+    "name": "Admin",
+    "email": "Admin@gmail.com",
+    "phoneno": "125469232",
+    "password": "$2a$10$LbPHzFCfY8cvZQPYxD9Vc.jc/Qpo6MZ50Nx9L5QU5i1rGnX6flStq",
+    "user_type": "66ff8d3814f6bc1a2e416949",
+    "image": "uploads/users/172974455291317.jpeg"
+  },
+  {
+    "id": "22e6c914-4eaa-497a-8b35-260c10b12aae",
+    "name": "jack",
+    "email": "jack@gmail.com",
+    "phoneno": "125469232",
+    "password": "$2a$10$2sXYm4qAKihe21xpf7dpY.B7lLL59M1k9UWZ5NsY1Y7gJR3sTEFOm",
+    "user_type": "66ff8dd014f6bc1a2e41694a",
+    "image": "uploads/users/172974821254982.jpeg"
+  }
+]
